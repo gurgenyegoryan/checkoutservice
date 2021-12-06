@@ -1,0 +1,8 @@
+fix package name issue in .proto files option go_package line
+
+grpc plugin (protoc-gen-go-grpc) generates a different (demo_grpc.pb.go) file.
+which one to use?
+
+Go version in Dockerfile needs to be updated. >= v1.16
+
+health.proto apparently does not need to be recopiled
